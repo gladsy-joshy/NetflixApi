@@ -1,0 +1,106 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.maincontainer {
+  height: 600px;
+  background-color: black;
+}
+.heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image {
+  display: flex;
+  width: 90px;
+  height: 80px;
+  position: fixed;
+  z-index: 1000;
+  background-color: transparent;
+
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.imageb {
+  width: 1342px;
+  height: 660px;
+}
+.mainbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 400px;
+  height: 500px;
+  box-shadow: rgba(14, 30, 37, 0.24) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.64) 0px 2px 16px 0px;
+}
+.background {
+  width: 1342px;
+  height: 700px;
+}
+.subheading {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+  font-size: 30px;
+
+  margin-left: 5px;
+  color: white;
+}
+
+.Signinbuttton {
+  margin-left: 132px;
+  margin-top: 20px;
+}
+.rememberme {
+  color: white;
+  font-size: 13px;
+  margin-top: 13px;
+}
+.needhelp {
+  color: white;
+  margin-left: 200px;
+  font-size: 13px;
+
+  width: 200px;
+  height: 10px;
+}
+.rememberneed {
+  display: flex;
+
+  width: 600px;
+}
+.help {
+  color: white;
+  text-decoration: none;
+}
+.newtonetflix {
+  color: white;
+  font-size: 15px;
+}
+.signupnow {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+.captcha {
+  color: white;
+  font-size: 13px;
+  line-height: 0.3;
+  margin-top: 20px;
+}
+.Learnmore {
+  font-size: 13px;
+  text-decoration: none;
+}

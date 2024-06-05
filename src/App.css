@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Braah+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Braah+One&family=Concert+One&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Braah+One&family=Concert+One&display=swap");
+
+.Nav {
+  display: flex;
+  width: 1342px;
+  height: 60px;
+  box-shadow: rgba(8, 8, 8, 0.25) 0px 50px 100px -20px,
+    rgba(14, 13, 13, 0.3) 0px 30px 60px -30px,
+    rgba(17, 17, 17, 0.35) 0px -2px 6px 0px inset;
+}
+.navlogo {
+  margin-left: 40px;
+  width: 200px;
+}
+.navlogoimage {
+  width: 190px;
+  height: 50px;
+  margin-top: 4px;
+}
+.signinimage {
+  display: flex;
+  margin-top: 10px;
+}
+.navsigninimage {
+  margin-left: 970px;
+}
+.firstbackgroundimage {
+  width: 1342px;
+  height: 600px;
+  border: 1px solid;
+}
+.firstbackgroundimagepicture {
+  width: 1342px;
+  height: 600px;
+}
+.mainheading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+
+  width: 900px;
+  height: 300px;
+}
+.mainheadingadjust {
+  color: white;
+  font-family: "Braah One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.subheadingadjust {
+  color: white;
+  margin-left: 260px;
+  font-size: 23px;
+  font-family: "Concert One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.headingbutton {
+  margin-left: 380px;
+  margin-top: 20px;
+}
+.enjoyontv {
+  border: 5px solid rgb(158, 156, 156);
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.enjoyontvdetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+}
+.enjoyonyourtv {
+  color: white;
+  margin-top: 43px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 0.3;
+}
+.watchontvchrome {
+  margin-top: 43px;
+  color: white;
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 0.6;
+}
+.enjoyontvdetailsimage {
+  width: 500px;
+  height: 250px;
+  margin-top: 10px;
+}
+.enjoyonyourtvadjust {
+  display: flex;
+
+  width: 420px;
+}
+.questionsbox {
+  border: 1px solid black;
+  height: 700px;
+  background-color: black;
+}
+.questionsheading {
+  color: white;
+  margin-top: 43px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 1.9;
+  margin-left: 400px;
+}
+.questiondetailbox {
+  border: 1px solid;
+  width: 800px;
+  margin-top: 35px;
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 55px;
+  background-color: rgb(145, 144, 144);
+  margin-bottom: 7px;
+  margin-top: 0;
+}
+.questiondetailbox:hover {
+  background-color: rgb(173, 171, 171);
+}
+.questionone {
+  width: 750px;
+  color: white;
+}
+.questiontwo {
+  color: white;
+  font-size: 30px;
+}
+.getstartedbutton {
+  margin-left: 580px;
+  margin-top: 40px;
+  width: 700px;
+  text-decoration: none;
+}

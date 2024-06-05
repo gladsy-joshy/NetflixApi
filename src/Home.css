@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+
+.BOX {
+  display: flex;
+  width: 100vw;
+  height: 6vw;
+  border: 3px solid grey;
+  align-items: center;
+
+  background-color: black;
+}
+
+.homepage {
+  background-color: rgb(0, 0, 0);
+}
+
+.SubContainerboxOne {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  align-items: flex-start;
+
+  border-radius: 10px;
+  border-color: white;
+  margin-top: 7px;
+  margin: 0;
+  display: inline-block;
+}
+
+.button {
+  text-decoration: none;
+  color: rgb(217, 242, 250);
+  font-size: 17px;
+  transition: font-size 0.1s ease;
+  padding: 3px;
+  text-align: center;
+  width: 100px;
+}
+
+.button:hover {
+  font-size: 22px;
+}
+
+.box {
+  display: flex;
+  width: 250px;
+  height: 68px;
+  align-items: flex-start;
+}
+
+.poster {
+  margin-left: 7px;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+
+.poster:hover {
+  transform: scale(1.06);
+}
+
+.parentContainer {
+  display: flex;
+  gap: 2px;
+}
+
+.hometvmovie {
+  display: flex;
+  gap: 0;
+
+  width: 500px;
+}
+
+.SubContainerboxTwo,
+.SubContainerboxThree {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: black;
+  margin-top: 15px;
+  width: 1200px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(146, 144, 144);
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: flex-start;
+  width: 1200px;
+}
+
+.cardadjust {
+  border: 1px rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(32, 143, 18, 0.1);
+  margin-left: 47px;
+  margin-top: 15px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(216, 101, 101, 0.3) 0px 18px 36px -18px inset;
+}
+
+.cardphoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(73, 73, 73, 0.35) 0px 5px 15px;
+  gap: 90px;
+  margin-left: 35px;
+  background-color: black;
+}
+
+.cardphoto:hover {
+  transform: scale(1.04);
+}
+
+.cardbody {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #faf9f9;
+  margin-top: 10px;
+}
+
+.genrename {
+  color: white;
+  position: relative;
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  text-decoration: none;
+  height: 35px;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+.genrename:hover {
+  text-decoration: underline;
+  margin-top: 2px;
+  color: rgb(240, 159, 179);
+}
+
+.maingenre {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-left: 0;
+}
+
+.SubContainerboxmovie {
+  display: flex;
+}
+
+.genre-section {
+  width: 100%; 
+}
+.brandcardcontainer {
+  width: 1300px;
+}
+
+.brandcards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  gap: 0px;
+}
+.brandcards::-webkit-scrollbar {
+  display: none;
+}
+.SubContainerbox {
+  display: flex;
+  margin-right: 150px;
+}

@@ -1,0 +1,32 @@
+.genre-page {
+  padding: 20px;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1320px;
+}
+.genreheadingname {
+  color: white;
+  margin-left: 19px;
+}
+.search-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 50px;
+  color: white;
+}
+
+.search-bar {
+  margin-left: 1rem;
+  flex: 0.3;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

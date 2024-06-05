@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Pacifico&display=swap');
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333;
+   
+  }
+  
+  .movie-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+ 
+  }
+  
+  .movie-details img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+  
+  .movie-details p {
+    font-size: 18px;
+    margin: 5px 0;
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    
+    
+  }
+  
+  .movie-details .trailer {
+    margin-top: 30px;
+  }
+  
+  .movie-details .trailer h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .movie-details .trailer iframe {
+ 
+   width: 1270px;
+    height: 450px;
+    border-radius: 10px;
+  }
+
+.star-rating {
+  display: flex;
+}
+
+.star-rating .filled {
+  color: rgb(233, 117, 22); 
+}
+
+.star-rating .empty {
+  color: rgb(133, 131, 131); 
+}
+.backgroundimage {
+  position: relative;
+  display: flex; 
+  min-height: 100vh; 
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(17, 17, 17, 0.7), rgba(0, 0, 0, 0.7)), 
+  url('https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png');
+}
+
+.backgroundimagedesign {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+ 
+  filter: brightness(0.02);
+  
+}
+
+.movie-details {
+  
+  margin: 0 auto;
+  padding: 20px;
+  
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  width: 1300px;
+  height: 1250px;
+}
+.search-input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+.background-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.background-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3); 
+
+  z-index: 1;
+}
