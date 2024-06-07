@@ -8,6 +8,10 @@
   display: flex;
   flex-wrap: wrap;
   width: 1320px;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
 }
 .genreheadingname {
   color: white;

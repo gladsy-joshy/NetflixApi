@@ -76,7 +76,7 @@ const GenrePage = () => {
                 <Card.Img
                   variant="top"
                   style={{
-                    width: "240px",
+                    width: "280px",
                     height: "270.99px",
                     borderRadius: "10px",
                   }}
